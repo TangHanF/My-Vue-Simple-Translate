@@ -28,7 +28,7 @@
                 // setTimeout(msg, 3000);
             },
             formSubmit: function (text,lang) {
-                if(!text || jq.trim(text).length==0){
+                if(!text){
                     alert("请输入要翻译的内容");
                     return;
                 }
